@@ -1,3 +1,4 @@
+//isPrime
 function isPrime(num){
     if(num <= 1) return false;
     for(let i = 2; i <= Math.sqrt(num); i++){
@@ -5,4 +6,14 @@ function isPrime(num){
     }
     return true;
 }
-console.log(isPrime(11));
+console.log(isPrime(17));
+
+//EvenOdd
+
+function evenOdd(num){
+    if(num % 2 == 0){
+        return true;
+    }
+    return false;
+}
+console.log(evenOdd(7));
