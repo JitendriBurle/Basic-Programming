@@ -16,4 +16,4 @@ function evenOdd(num){
     }
     return false;
 }
-console.log(evenOdd(7));
+console.log(evenOdd(6));
